@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiSamboro = axios.create({
-    baseURL: "http://127.0.0.1:3000/samboroProyect/v1",
+    baseURL: "https://backsamborosa.onrender.com",
     timeout: 5000,
     headers: {"cache-Control": "no-cache, no-store, must-revalidate"}
 });
